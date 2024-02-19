@@ -12,7 +12,6 @@
   "bugs": {
     "url": "https://github.com/chrismar-dev/portfolio/issues"
   },
-  "homepage": "https://chrismar-dev.github.io/portfolio/",
   "scripts": {
     "deploy": "vite build && gh-pages -d dist",
     "predeploy": "rm -rf dist",
