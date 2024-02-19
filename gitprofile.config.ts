@@ -37,7 +37,7 @@ const CONFIG = {
           description:
             'A full stack MERN app for devs to chat on! Click to see GitHub code and live link.',
           imageUrl:
-            'https://devpulse-app-vdcy-git-master-chrismar-devs-projects.vercel.app/logo.svg',
+            'https://cdn.discordapp.com/attachments/702286241802223627/1209282308834590830/favicon.png?ex=65e65ae9&is=65d3e5e9&hm=706dea250d6bb3861767428c6f18fd7a7f7e990cb2751cb99f94025ebf4b4b98&',
           link: 'https://github.com/chrismar-dev/devpulse_app',
         },
         {
