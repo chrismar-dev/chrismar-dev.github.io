@@ -25,11 +25,11 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['chrismar-dev/AvailabilityTracker','chrismar-dev/OpenGL-Engine', 'chrismar-dev/Serverless-AWS-Management-Tool', 'chrismar-dev/Enchantia-Quests-NLP-Powered-Story-Adventure' ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['chrismar-dev/AvailabilityTracker','chrismar-dev/OpenGL-Engine', 'chrismar-dev/.NET6-REST-API', 'chrismar-dev/Enchantia-Quests-NLP-Powered-Story-Adventure' ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
-      header: 'Main projects',
+      header: 'Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
@@ -37,7 +37,7 @@ const CONFIG = {
           description:
             'A full stack MERN app for devs to chat on! Click to see GitHub code and live link.',
           imageUrl:
-            'https://cdn.discordapp.com/attachments/702286241802223627/1209282308834590830/favicon.png?ex=65e65ae9&is=65d3e5e9&hm=706dea250d6bb3861767428c6f18fd7a7f7e990cb2751cb99f94025ebf4b4b98&',
+            'https://devpulse-app-vdcy.vercel.app/logo.svg',
           link: 'https://github.com/chrismar-dev/devpulse_app',
         },
         {
@@ -46,7 +46,7 @@ const CONFIG = {
             'An in progress AWS manager that operates serverless. No live demo is available yet.',
           imageUrl:
             'https://static-00.iconduck.com/assets.00/aws-icon-2048x2048-274bm1xi.png',
-          link: 'https://example.com',
+          link: 'https://github.com/chrismar-dev/Serverless-AWS-Management-Tool',
         },
         {
           title: 'PhotoWeather',
@@ -61,7 +61,7 @@ const CONFIG = {
           description:
             'A sticky notes app that saves user information locally with JSON Click to see GitHub code and live link.',
           imageUrl:
-            'https://cdn.discordapp.com/attachments/702286241802223627/1209255048476106752/image.png?ex=65e64186&is=65d3cc86&hm=7b2720a1031468e3b87ab58de400556005a50ebfd9ab2992f0046e915c91f3da&',
+            'https://user-images.githubusercontent.com/55571865/201537980-54098d97-3cc3-41ed-8971-651e3fa66de4.png',
           link: 'https://github.com/chrismar-dev/Sticky-Notes-App',
         },
       ],
@@ -78,7 +78,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1-cIbmyBM4Rk_MSBT14P_LgPUWxd00MfL/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1ut_ClU8MG0LQDOYI-B0oRlGQomdA28wZ/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
@@ -101,6 +101,13 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Data Annotation',
+      position: 'Software Engineer (Data)',
+      from: 'March 2024',
+      to: 'Present',
+      companyLink: 'https://www.dataannotation.tech/',
+    },
+    {
       company: 'Connect Link',
       position: 'Software Engineer Intern',
       from: 'December 2023',
@@ -121,8 +128,33 @@ const CONFIG = {
       to: 'March 2023',
       companyLink: 'https://www.mtsac.edu/it/',
     },
+    {
+      company: 'Google Code-in',
+      position: 'Open Source Developer',
+      from: 'December 2019',
+      to: 'Januray 2020',
+      companyLink: 'https://codein.withgoogle.com/archive/',
+    },
   ],
   certifications: [
+    {
+      name: 'Linux Essentials',
+      body: 'Linux Professional Institute',
+      year: '2024',
+      link: 'https://www.lpi.org/',
+    },
+    {
+      name: 'ITIL®Foundation Certification',
+      body: 'AXELOS',
+      year: '2024',
+      link: 'https://www.axelos.com/',
+    },
+    {
+      name: 'TIP102 | Intermediate Technical Interview Prep',
+      body: 'CodePath',
+      year: 'Summer 2024',
+      link: 'https://codepath.org',
+    },
     {
       name: 'Intermediate Web Development',
       body: 'CodePath',
@@ -134,14 +166,8 @@ const CONFIG = {
     {
       institution: 'Western Governors University',
       degree: 'BS Computer Science',
-      from: '2024',
-      to: 'May 2025',
-    },
-    {
-      institution: 'Santa Monica College',
-      degree: 'AS Computer Science',
-      from: 'August 2022',
-      to: 'June 2024',
+      from: 'Anticipated Graduation',
+      to: 'February 2025',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
@@ -163,7 +189,7 @@ const CONFIG = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
