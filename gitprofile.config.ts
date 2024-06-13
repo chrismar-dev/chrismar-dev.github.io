@@ -9,7 +9,7 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/portfolio/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -111,7 +111,7 @@ const CONFIG = {
       company: 'Connect Link',
       position: 'Software Engineer Intern',
       from: 'December 2023',
-      to: 'Present',
+      to: 'March 2024',
       companyLink: 'https://myconnectlink.com/',
     },
     {
